@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Jens Christian</title>
 </head>
 <body>
 	<style>
@@ -46,6 +46,7 @@
 	%for x in listi:
     	<h3><a href="/allt/{{x}}">{{x}}</h3>
     %end
+    
 
 
 </body>

@@ -13,6 +13,9 @@ def index():
 @route('/allt/<name>')
 def allt(name):
     return template('mið2.tpl',data=data,name=name)
+@route('/allt2/<name>')
+def allt2(name):
+    return template('mið3.tpl',data=data, name=name)
 
 @error(404)
 def villa(error):
